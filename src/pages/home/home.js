@@ -138,56 +138,64 @@ const Home = () => {
       </h1>
       <div className="w-screen flex flex-wrap justify-center pb-40 mt-20">
         <motion.div
-          initial={{ opacity: 0, y: 100 }} // Posisi awal di luar layar, masuk dari bawah
-          animate={{ opacity: 1, y: 0 }} // Animasi masuk ke posisi normal
-          transition={{ duration: 0.5 }} // Durasi animasi
-          className="w-full sm:w-1/3 p-4" // Ubah lebar menjadi penuh saat tampilan mobile
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="w-full sm:w-1/3 p-4"
         >
-          <div className="bg-gray-200 rounded-lg overflow-hidden relative transition-transform duration-300 transform hover:scale-110">
+          <div
+            className="bg-gray-200 rounded-lg overflow-hidden relative transition-transform duration-300 transform hover:scale-110"
+            style={{ height: "700px" }}
+          >
             <img
-              src="assets/header2.jpg"
+              src="assets/galeri1.jpg"
               alt="Gambar 1"
-              className="w-full h-100 object-cover transform hover:scale-90"
+              className="w-full h-full object-cover transform hover:scale-90"
             />
-            <div className="p-4 opacity-0 absolute top-0 left-0 right-0 bottom-0  bg-opacity-75 hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+            <div className="p-4 opacity-0 absolute top-0 left-0 right-0 bottom-0 bg-opacity-75 hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
           </div>
         </motion.div>
-        {/* Sisipkan kode motion untuk gambar 2 - 6 */}
         {/* Gambar 2 */}
         <motion.div
-          initial={{ opacity: 0, y: 100 }} // Posisi awal di luar layar, masuk dari bawah
-          animate={{ opacity: 1, y: 0 }} // Animasi masuk ke posisi normal
-          transition={{ duration: 0.5, delay: 0.1 }} // Durasi animasi dan delay 0.1 detik
-          className="w-full sm:w-1/3 p-4" // Ubah lebar menjadi penuh saat tampilan mobile
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 }}
+          className="w-full sm:w-1/3 p-4"
         >
-          <div className="bg-gray-200 rounded-lg overflow-hidden relative transition-transform duration-300 transform hover:scale-110">
+          <div
+            className="bg-gray-200 rounded-lg overflow-hidden relative transition-transform duration-300 transform hover:scale-110"
+            style={{ height: "700px" }}
+          >
             <img
-              src="assets/header2.jpg"
+              src="assets/galeri2.jpg"
               alt="Gambar 2"
-              className="w-full h-100 object-cover transform hover:scale-90"
+              className="w-full h-full object-cover transform hover:scale-90"
             />
-            <div className="p-4 opacity-0 absolute top-0 left-0 right-0 bottom-0  bg-opacity-75 hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+            <div className="p-4 opacity-0 absolute top-0 left-0 right-0 bottom-0 bg-opacity-75 hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
           </div>
         </motion.div>
-        {/* Sisipkan kode motion untuk gambar 3 - 6 */}
         {/* Gambar 3 */}
         <motion.div
-          initial={{ opacity: 0, y: 100 }} // Posisi awal di luar layar, masuk dari bawah
-          animate={{ opacity: 1, y: 0 }} // Animasi masuk ke posisi normal
-          transition={{ duration: 0.5, delay: 0.2 }} // Durasi animasi dan delay 0.2 detik
-          className="w-full sm:w-1/3 p-4" // Ubah lebar menjadi penuh saat tampilan mobile
+          initial={{ opacity: 0, y: 100 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.2 }}
+          className="w-full sm:w-1/3 p-4"
         >
-          <div className="bg-gray-200 rounded-lg overflow-hidden relative transition-transform duration-300 transform hover:scale-110">
+          <div
+            className="bg-gray-200 rounded-lg overflow-hidden relative transition-transform duration-300 transform hover:scale-110"
+            style={{ height: "700px" }}
+          >
             <img
-              src="assets/header2.jpg"
+              src="assets/galeri3.jpg"
               alt="Gambar 3"
-              className="w-full h-100 object-cover transform hover:scale-90"
+              className="w-full h-full object-cover transform hover:scale-90"
             />
-            <div className="p-4 opacity-0 absolute top-0 left-0 right-0 bottom-0  bg-opacity-75 hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+            <div className="p-4 opacity-0 absolute top-0 left-0 right-0 bottom-0 bg-opacity-75 hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
           </div>
         </motion.div>
       </div>
-      <Footer/>
+
+      <Footer />
     </div>
   );
 };

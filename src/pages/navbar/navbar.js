@@ -23,20 +23,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/aboutus" className="text-main hover:text-orange hover:underline">
+            <Link to="/about" className="text-main hover:text-orange hover:underline">
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/product" className="text-main hover:text-orange hover:underline">
-              Gallery
+            <Link to="/galery" className="text-main hover:text-orange hover:underline">
+              Product
             </Link>
           </li>
-          <li>
-            <Link to="/contact" className="text-main hover:text-second hover:underline">
-              Contact Us
-            </Link>
-          </li>
+        
         </ul>
       </div>
      
@@ -82,7 +78,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/aboutus"
+              to="/about"
               className="text-black hover:text-orange-200 hover:underline"
               onClick={toggleSidebar}
             >
@@ -91,22 +87,14 @@ const Navbar = () => {
           </li>
           <li>
             <Link
-              to="/product"
+              to="/galery"
               className="text-black hover:text-orange-200 hover:underline"
               onClick={toggleSidebar}
             >
               Product
             </Link>
           </li>
-          <li>
-            <Link
-              to="/contact"
-              className="text-black hover:text-orange-200 hover:underline"
-              onClick={toggleSidebar}
-            >
-              Contact Us
-            </Link>
-          </li>
+         
         </ul>
       </div>
     </nav>

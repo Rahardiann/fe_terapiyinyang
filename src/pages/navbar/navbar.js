@@ -24,7 +24,7 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/about" className="text-white hover:text-orange hover:underline">
-              About Us
+              Contact Us
             </Link>
           </li>
           <li>

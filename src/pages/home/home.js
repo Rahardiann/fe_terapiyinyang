@@ -54,9 +54,9 @@ const Home = () => {
             Fisik dan Mental
           </p>
           <div className="ml-auto">
-            <button className="bg-emas hover:bg-abu text-white font-bold py-2 px-8 md:px-16 rounded-3xl shadow-xl animate-fadeInUp">
-              hubungi kami
-            </button>
+            <a href="https://wa.me/6281414313144" className="bg-emas hover:bg-abu text-white font-bold py-2 px-8 md:px-16 rounded-3xl shadow-xl animate-fadeInUp">
+            Contact 
+            </a>
           </div>
         </motion.div>
       </div>

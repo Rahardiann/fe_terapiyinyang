@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../navbar/navbar";
 import Footer from "../footer/footer";
 import { motion } from "framer-motion";
-import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaFacebook, FaInstagram, FaTiktok} from "react-icons/fa";
 
 const About = () => {
   return (
@@ -57,14 +57,14 @@ const About = () => {
               </p>
 
               <div className="social-links flex justify-center sm:text-center text-black">
-                <a href="#" className="twitter mr-8">
+                <a href="https://wa.me/6281414313144" className="twitter mr-8">
                   <FaWhatsapp size={32} />
                 </a>
                 <a href="#" className="facebook mr-8">
                   <FaFacebook size={32} />
                 </a>
-                <a href="#" className="instagram">
-                  <FaInstagram size={32} />
+                <a href="https://www.tiktok.com/@andrywicaksono1111?is_from_webapp=1&sender_device=pc" className="instagram">
+                  <FaTiktok size={32} />
                 </a>
               </div>
             </div>

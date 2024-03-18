@@ -11,9 +11,8 @@ const Footer = () => {
             <div className="footer-contact">
             <h4 className="text-xl font-bold text-emas mb-4">Terapis YinYang</h4>
               <p>
-                Leading company in turning information and managing information
-                into fortune and profit.
-              
+              Manfaat Terapi Pijat dan Alternatif Lainnya untuk Kesejahteraan
+            Fisik dan Mental
               </p>
             </div>
             <div className="footer-links">
@@ -23,44 +22,36 @@ const Footer = () => {
                   <a href="#">Home</a>
                 </li>
                 <li>
-                  <a href="#">About us</a>
+                  <a href="#">Contact us</a>
                 </li>
                 <li>
-                  <a href="#">Services</a>
+                  <a href="#">galeri</a>
                 </li>
-                <li>
-                  <a href="#">Terms of service</a>
-                </li>
-                <li>
-                  <a href="#">Privacy policy</a>
-                </li>
+               
               </ul>
             </div>
             <div className="footer-links">
               <h4 className="text-xl text-emas font-bold mb-4">Our Services</h4>
               <ul>
                 <li>
-                  <a href="#">Web Design</a>
+                  <a href="#">Product Herbal</a>
                 </li>
                 <li>
-                  <a href="#">Web Development</a>
+                  <a href="#">Akupuntur</a>
                 </li>
                 <li>
-                  <a href="#">Product Management</a>
+                  <a href="#">Pengobatan Tradisional</a>
                 </li>
                 <li>
-                  <a href="#">Marketing</a>
+                  <a href="#">Terapis</a>
                 </li>
-                <li>
-                  <a href="#">Graphic Design</a>
-                </li>
+              
               </ul>
             </div>
             <div className="footer-newsletter">
               <h4 className="text-xl font-bold text-emas mb-4">Join Our Newsletter</h4>
               <p>
-                Tamen quem nulla quae legam multos aute sint culpa legam noster
-                magna
+              email : andrywicaksono545@gmail.com 
               </p>
             </div>
           </div>

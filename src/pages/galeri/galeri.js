@@ -9,11 +9,11 @@ const Gallery = () => {
   return (
     <div className="bg-white fixed w-full h-full overflow-auto">
       <Navbar />
-      <h1 className="text-center text-4xl text-main font-bold mt-8 pt-24 mb-12">
-        Product Kami
+      <h1 className="text-center text-4xl text-black font-bold mt-8 pt-24 mb-12">
+        Product Herbal
       </h1>
 
-      <p className="text-center text-main  animate-fadeInUp">
+      <p className="text-center text-black  animate-fadeInUp">
             Kami juga menyediakan beberapa obat atau keperluan terapi
           </p>
       <div className="w-screen flex flex-wrap justify-center pb-40 mt-20">

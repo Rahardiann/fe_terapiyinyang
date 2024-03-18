@@ -13,6 +13,7 @@ const Home = () => {
   const { ref, inView } = useInView();
 
   useEffect(() => {
+    document.title = "Yinyang Terapis";
     if (inView) {
       setShowAnimation(true);
     }
@@ -31,7 +32,7 @@ const Home = () => {
       <div
         className="flex flex-col px-4 pb-64 pt-52 bg-cover relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.5)), url('/assets/header.jpg')`,
+          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/assets/bgmain.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           height: "80vh",
@@ -44,16 +45,16 @@ const Home = () => {
           transition={{ duration: 1, delay: 0.4, ease: "easeInOut" }}
           className={`text-center sm:text-left`}
         >
-          <h1 className="text-4xl md:text-6xl lg:text-5xl font-bold text-second mb-8 animate-fadeInUp">
-            Harmoni Tubuh dan Jiwa
+          <h1 className="text-4xl md:text-6xl lg:text-5xl font-bold text-black mb-8 animate-fadeInUp">
+            Ying <span className="text-abucustom">Yang </span><span className="text-black">terapis</span> 
           </h1>
           <h1 className="text-4xl md:text-6xl lg:text-8xl font-bold mb-8 animate-fadeInUp"></h1>
-          <p className="text-main mb-12 animate-fadeInUp">
+          <p className="text-black mb-12 animate-fadeInUp">
             Manfaat Terapi Pijat dan Alternatif Lainnya untuk Kesejahteraan
             Fisik dan Mental
           </p>
           <div className="ml-auto">
-            <button className="bg-second hover:bg-main text-white font-bold py-2 px-8 md:px-16 rounded-3xl shadow-xl animate-fadeInUp">
+            <button className="bg-emas hover:bg-abu text-white font-bold py-2 px-8 md:px-16 rounded-3xl shadow-xl animate-fadeInUp">
               hubungi kami
             </button>
           </div>
@@ -85,7 +86,7 @@ const Home = () => {
               transition={{ duration: 0.8, delay: 0.2, ease: "easeInOut" }}
               className="flex flex-col space-y-4"
             >
-              <Card icon={<FaStethoscope />} title="Medical Expertise" />
+              <Card icon={<FaStethoscope />} title="pengobatan tradisional" />
               <Card icon={<RiMentalHealthFill />} title="Advanced Facilities" />
               <Card icon={<BiSolidHeartSquare />} title="Emergency Services" />
               <Card icon={<FaSyringe />} title="Professional Staff" />
@@ -95,13 +96,18 @@ const Home = () => {
             initial={{ opacity: 0, x: 20 }}
             animate={showAnimation ? { opacity: 1, x: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.5, ease: "easeInOut" }}
-            className="text-xl md:mt-0 mt-4 mx-auto text-center text-main md:text-left font-poppins"
+            className="text-xl md:mt-0 mt-4 mx-auto text-center text-emas md:text-left font-poppins"
             style={{ maxWidth: "350px" }}
           >
-            <h1 className="font-bold tex-3xl text-main"> Kesehatan Mental</h1>
-            At Andes, we understand that you have choices when it comes to our
-            products and services. Here's why we believe we stand out from the
-            crowd.
+            <h1 className="font-bold tex-4xl text-emascustom">
+              {" "}
+              Pijat Terapi
+            </h1>
+            Pijat terapi dapat disesuaikan dengan kebutuhan individu, termasuk
+            pijat relaksasi, pijat terapi jaringan dalam untuk mengatasi
+            ketegangan otot yang dalam, pijat refleksi yang memanipulasi
+            titik-titik pada kaki, tangan, atau telinga yang terhubung dengan
+            organ-organ tubuh tertentu, dan masih banyak lagi.
           </motion.p>
         </div>
       </motion.div>
@@ -109,7 +115,7 @@ const Home = () => {
       <div
         className="flex flex-col px-4 pb-64 pt-24 bg-cover relative"
         style={{
-          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.5)), url('/assets/header2.jpg')`,
+          backgroundImage: `linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.5)), url('/assets/bgmain2.jpg')`,
           backgroundSize: "cover",
           backgroundPosition: "top",
           height: "50vh",
@@ -122,18 +128,18 @@ const Home = () => {
           transition={{ duration: 1, delay: 0.4, ease: "easeInOut" }}
           className={`text-center sm:text-left`}
         >
-          <h1 className="text-4xl md:text-6xl text-center lg:text-5xl font-bold text-second mb-8 animate-fadeInUp">
-            Harmoni Tubuh dan Jiwa
+          <h1 className="text-4xl md:text-6xl text-center lg:text-5xl font-bold text-black mb-8 animate-fadeInUp">
+            Ying Yang Terapis
           </h1>
           <h1 className="text-4xl md:text-6xl text-center lg:text-8xl font-bold mb-8 animate-fadeInUp"></h1>
-          <p className="text-main text-xl mb-12 text-center animate-fadeInUp">
+          <p className="text-white text-xl mb-12 text-center animate-fadeInUp">
             Manfaat Terapi Pijat dan Alternatif Lainnya untuk Kesejahteraan
             Fisik dan Mental
           </p>
         </motion.div>
       </div>
 
-      <h1 className="text-center text-4xl text-main font-bold mt-8 mb-12">
+      <h1 className="text-center text-4xl text-emascustom font-bold mt-8 mb-12">
         Gallery
       </h1>
       <div className="w-screen flex flex-wrap justify-center pb-40 mt-20">

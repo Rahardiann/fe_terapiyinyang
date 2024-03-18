@@ -4,12 +4,12 @@ import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer id="footer" className="bg-third text-black">
+    <footer id="footer" className="bg-black text-white">
       <div className="footer-top py-12">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             <div className="footer-contact">
-            <h4 className="text-xl font-bold text-second mb-4">Terapis YinYang</h4>
+            <h4 className="text-xl font-bold text-emas mb-4">Terapis YinYang</h4>
               <p>
                 Leading company in turning information and managing information
                 into fortune and profit.
@@ -17,7 +17,7 @@ const Footer = () => {
               </p>
             </div>
             <div className="footer-links">
-              <h4 className="text-xl text-second font-bold mb-4">Useful Links</h4>
+              <h4 className="text-xl text-emas font-bold mb-4">Useful Links</h4>
               <ul>
                 <li>
                   <a href="#">Home</a>
@@ -37,7 +37,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-links">
-              <h4 className="text-xl text-second font-bold mb-4">Our Services</h4>
+              <h4 className="text-xl text-emas font-bold mb-4">Our Services</h4>
               <ul>
                 <li>
                   <a href="#">Web Design</a>
@@ -57,7 +57,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="footer-newsletter">
-              <h4 className="text-xl font-bold text-second mb-4">Join Our Newsletter</h4>
+              <h4 className="text-xl font-bold text-emas mb-4">Join Our Newsletter</h4>
               <p>
                 Tamen quem nulla quae legam multos aute sint culpa legam noster
                 magna
@@ -67,19 +67,19 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr className="border-t-2 border-main mb-4 mx-auto" />
+      <hr className="border-t-2 border-emas mb-4 mx-auto" />
 
       <div className="container mx-auto py-4 flex justify-between items-center">
         <div className="md:text-left">
           <div className="mb-2">
             &copy;{" "}
             <strong>
-              <span className="text-second">Raek</span>
+              <span className="text-emas">Raek</span>
             </strong>
             . All Rights Reserved
           </div>
         </div>
-        <div className="social-links flex justify-end text-center text-main text-md-right">
+        <div className="social-links flex justify-end text-center text-emas text-md-right">
           <a href="#" className="twitter mr-4">
             <FaWhatsapp size={32} />
           </a>

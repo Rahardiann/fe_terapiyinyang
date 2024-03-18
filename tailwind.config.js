@@ -8,7 +8,11 @@ module.exports = {
       colors: {
         'main' : '#C1224F',
         'second' : '#A10035',
-        'third' : '#FFE7BF'
+        'third' : '#FFE7BF',
+        'abu': '#B5C0D0',
+        'abucustom' : '#EEEEEE',
+        'emas' : '#CAA132',
+        'emascustom' : '#866218'
       }
     },
   },

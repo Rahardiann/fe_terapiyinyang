@@ -13,22 +13,22 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 flex justify-between items-center bg-white text-main py-4 px-6 ">
+    <nav className="fixed top-0 left-0 right-0 z-10 flex justify-between items-center bg-black text-main py-4 px-6 ">
       <div className="flex items-center">
        
         <ul className="hidden md:flex mx-auto md:ml-24  space-x-6 justify-center">
           <li>
-            <Link to="/" className="text-main hover:text-orange hover:underline">
+            <Link to="/" className="text-white hover:text-orange hover:underline">
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className="text-main hover:text-orange hover:underline">
+            <Link to="/about" className="text-white hover:text-orange hover:underline">
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/galery" className="text-main hover:text-orange hover:underline">
+            <Link to="/galery" className="text-white hover:text-orange hover:underline">
               Product
             </Link>
           </li>
@@ -37,7 +37,7 @@ const Navbar = () => {
       </div>
      
       <div className="lg:flex items-center relative">
-      <img src="/assets/logo.png" alt="Logo" className="w-40 h-auto" />
+      <img src="/assets/yinyang.png" alt="Logo" className="w-12 h-auto" />
        
       </div>
 

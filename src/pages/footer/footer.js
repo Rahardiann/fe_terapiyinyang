@@ -71,13 +71,13 @@ const Footer = () => {
           </div>
         </div>
         <div className="social-links flex justify-end text-center text-emas text-md-right">
-          <a href="#" className="twitter mr-4">
+          <a href="https://wa.me/6281414313144" className="twitter mr-4">
             <FaWhatsapp size={32} />
           </a>
-          <a href="#" className="facebook mr-4">
+          <a href="https://www.facebook.com/andre.wicaksono.718" className="facebook mr-4">
             <FaFacebook size={32} />
           </a>
-          <a href="#" className="instagram">
+          <a href="https://www.tiktok.com/@andrywicaksono1111?is_from_webapp=1&sender_device=pc" className="instagram">
             <FaInstagram size={32} />
           </a>
         </div>

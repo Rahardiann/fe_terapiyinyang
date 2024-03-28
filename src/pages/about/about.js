@@ -60,7 +60,7 @@ const About = () => {
                 <a href="https://wa.me/6281414313144" className="twitter mr-8">
                   <FaWhatsapp size={32} />
                 </a>
-                <a href="#" className="facebook mr-8">
+                <a href="https://www.facebook.com/andre.wicaksono.718" className="facebook mr-8">
                   <FaFacebook size={32} />
                 </a>
                 <a href="https://www.tiktok.com/@andrywicaksono1111?is_from_webapp=1&sender_device=pc" className="instagram">
